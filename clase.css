@@ -1,0 +1,43 @@
+*{ 
+	margin: 0;
+	padding: 100;
+	box-sizing:border-box ;
+}
+
+body{ 
+     font-family: "none";	
+}
+header{ 
+	background-color:rgb(235, 222, 240 ) ;
+	text-align:center ;
+	padding:80px 0 ;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color:rgb(86, 101, 115 );
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover{
+    background-color:rgb(174, 182, 191 );
+    color:#fff ;	
+}   
+.encabezado-img{
+	background-image: url(img/men.jpeg);
+	height: 1000;
+	background-size: cover;
+	display:flex;
+	flex-direction: colum;
+	justify-content: center;
+	align-items: center;
+	color:#fff ;
+}	
+.encabezado-img p{
+     font-size:20px ;
+}
+.encabezado-img h1{
+      font-size: 50px;
+}           

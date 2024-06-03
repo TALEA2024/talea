@@ -1,0 +1,23 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+      background-color:palegoldenrod;     
+      text-align: center;
+      padding: 25px 0;
+}
+nav  a{ 
+	display: inline-block;
+	text-decoration: none;
+	color: springgreen;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px; 
+}
+nav a:hover{
+	background-color: #000;
+	color: #fff;
+}	
